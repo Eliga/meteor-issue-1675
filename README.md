@@ -1,7 +1,8 @@
 meteor-issue-1675
 =================
 
-Meteor Issue 1675 : "lib order"
+Meteor [Issue 1675](https://github.com/meteor/meteor/issues/1675) : "lib order"
+
 
 Documentation says : 
 >Files in the lib directory at the root of your application are loaded first.
@@ -17,3 +18,6 @@ loaded AFTER :
 It seems it's rather : 
 > Files in the deepest directory, with a lib part,  are loaded first.
 
+
+Example runs here:
+http://issue-1675.meteor.com/
